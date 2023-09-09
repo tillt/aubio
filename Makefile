@@ -22,6 +22,13 @@ WAFOPTS += --jobs 4
 # python/lib/moresetuptools.py also checks for HAVE_AUBIO_DOUBLE
 WAFOPTS += $(shell [ -z $(HAVE_AUBIO_DOUBLE) ] || echo --enable-double )
 
+#WAFOPTS += --enable-fat
+WAFOPTS += --disable-sndfile
+WAFOPTS += --disable-samplerate
+WAFOPTS += --disable-flac
+WAFOPTS += --disable-vorbis
+WAFOPTS += --disable-jack
+
 PIPOPTS += --verbose
 
 DESTDIR:=$(PWD)/build/dist
