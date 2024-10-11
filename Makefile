@@ -28,6 +28,7 @@ WAFOPTS += --disable-samplerate
 WAFOPTS += --disable-flac
 WAFOPTS += --disable-vorbis
 WAFOPTS += --disable-jack
+WAFOPTS += --disable-rubberband
 
 PIPOPTS += --verbose
 
