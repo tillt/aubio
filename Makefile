@@ -29,6 +29,7 @@ WAFOPTS += --disable-flac
 WAFOPTS += --disable-vorbis
 WAFOPTS += --disable-jack
 WAFOPTS += --disable-rubberband
+WAFOPTS += --disable-avcodec
 
 PIPOPTS += --verbose
 
